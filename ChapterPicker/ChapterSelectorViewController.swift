@@ -12,6 +12,7 @@ import AVFoundation
 
 class ChapterSelectorViewController: UITableViewController, ChapterSelectionItem {
 
+    /// A chapter selection delegate
     var delegate: ChapterSelectionDelegate? {
         didSet {
             print("Chapter Selection Delegate Set on \(self.dynamicType)")
@@ -20,7 +21,10 @@ class ChapterSelectorViewController: UITableViewController, ChapterSelectionItem
         }
     }
     
+    /// A chapter data source
     var dataSource = ChapterManager()
+    
+    /// MARK: - View Controller Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +34,7 @@ class ChapterSelectorViewController: UITableViewController, ChapterSelectionItem
         self.tableView.reloadData()
     }
     
+    /// MARK: - Select a Chapter from the List, Inform the Delegate
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let cell = (tableView.cellForRowAtIndexPath(indexPath) as! SimpleSubtitleCell)
         cell.selected = true

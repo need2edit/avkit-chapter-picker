@@ -35,6 +35,10 @@ class ChapterManager: NSObject, SimpleDataSourceItem, ChapterSelectionItem {
     
     func setup(delegate: ChapterSelectionDelegate? = nil) {
         self.delegate = delegate
+        generateDummyData()
+    }
+    
+    func generateDummyData() {
         for i in 1...12 {
             let chapter = Chapter(title: "Chapter \(i)", time: CMTimeMake(Int64(i * i), 1))
             self.add(chapter)
