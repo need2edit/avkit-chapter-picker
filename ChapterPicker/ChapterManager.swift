@@ -10,7 +10,7 @@ import Foundation
 import AVFoundation
 import AVKit
 
-class ChapterList: NSObject, SimpleDataSourceItem, ChapterSelectionItem {
+class ChapterManager: NSObject, SimpleDataSourceItem, ChapterSelectionItem {
     
     var delegate: ChapterSelectionDelegate?
     
@@ -43,7 +43,7 @@ class ChapterList: NSObject, SimpleDataSourceItem, ChapterSelectionItem {
 }
 
 
-extension ChapterList: UITableViewDataSource {
+extension ChapterManager: UITableViewDataSource {
     
     // MARK: - Table view data source
     

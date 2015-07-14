@@ -20,7 +20,7 @@ class ChapterSelectorViewController: UITableViewController, ChapterSelectionItem
         }
     }
     
-    var dataSource = ChapterList()
+    var dataSource = ChapterManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()

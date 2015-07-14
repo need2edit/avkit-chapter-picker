@@ -18,9 +18,10 @@
 		3295AD381B549C6D00C5349D /* ChapterSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD371B549C6D00C5349D /* ChapterSelectorViewController.swift */; };
 		3295AD3A1B549C7700C5349D /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD391B549C7700C5349D /* Chapter.swift */; };
 		3295AD3C1B54A0C600C5349D /* SimpleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD3B1B54A0C600C5349D /* SimpleDataSource.swift */; };
-		3295AD3E1B54A0F400C5349D /* ChapterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD3D1B54A0F400C5349D /* ChapterList.swift */; };
+		3295AD3E1B54A0F400C5349D /* ChapterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD3D1B54A0F400C5349D /* ChapterManager.swift */; };
 		3295AD401B54A8EC00C5349D /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD3F1B54A8EC00C5349D /* SegueHandlerType.swift */; };
 		3295AD431B54ABFE00C5349D /* ChapterPlaybackSupported.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD421B54ABFE00C5349D /* ChapterPlaybackSupported.swift */; };
+		3295AD4A1B54BE2000C5349D /* ChapterMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AD491B54BE2000C5349D /* ChapterMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +38,10 @@
 		3295AD371B549C6D00C5349D /* ChapterSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterSelectorViewController.swift; sourceTree = "<group>"; };
 		3295AD391B549C7700C5349D /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		3295AD3B1B54A0C600C5349D /* SimpleDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDataSource.swift; sourceTree = "<group>"; };
-		3295AD3D1B54A0F400C5349D /* ChapterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterList.swift; sourceTree = "<group>"; };
+		3295AD3D1B54A0F400C5349D /* ChapterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterManager.swift; sourceTree = "<group>"; };
 		3295AD3F1B54A8EC00C5349D /* SegueHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandlerType.swift; sourceTree = "<group>"; };
 		3295AD421B54ABFE00C5349D /* ChapterPlaybackSupported.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterPlaybackSupported.swift; sourceTree = "<group>"; };
+		3295AD491B54BE2000C5349D /* ChapterMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				3295AD391B549C7700C5349D /* Chapter.swift */,
-				3295AD3D1B54A0F400C5349D /* ChapterList.swift */,
+				3295AD3D1B54A0F400C5349D /* ChapterManager.swift */,
 			);
 			name = Chapter;
 			sourceTree = "<group>";
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				3295AD421B54ABFE00C5349D /* ChapterPlaybackSupported.swift */,
+				3295AD491B54BE2000C5349D /* ChapterMode.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -213,8 +216,9 @@
 			files = (
 				3295AD3C1B54A0C600C5349D /* SimpleDataSource.swift in Sources */,
 				3295AD361B549C3E00C5349D /* SimpleSubtitleCell.swift in Sources */,
+				3295AD4A1B54BE2000C5349D /* ChapterMode.swift in Sources */,
 				3295AD401B54A8EC00C5349D /* SegueHandlerType.swift in Sources */,
-				3295AD3E1B54A0F400C5349D /* ChapterList.swift in Sources */,
+				3295AD3E1B54A0F400C5349D /* ChapterManager.swift in Sources */,
 				3295AD3A1B549C7700C5349D /* Chapter.swift in Sources */,
 				3295AD431B54ABFE00C5349D /* ChapterPlaybackSupported.swift in Sources */,
 				3295AD381B549C6D00C5349D /* ChapterSelectorViewController.swift in Sources */,
