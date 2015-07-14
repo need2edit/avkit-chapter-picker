@@ -58,9 +58,8 @@
 		3295AD131B54979800C5349D = {
 			isa = PBXGroup;
 			children = (
-				3295AD311B5497B300C5349D /* AVFoundation.framework */,
-				3295AD321B5497B300C5349D /* AVKit.framework */,
 				3295AD1E1B54979800C5349D /* ChapterPicker */,
+				3295AD481B54B92E00C5349D /* Frameworks */,
 				3295AD1D1B54979800C5349D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,6 +130,15 @@
 				3295AD421B54ABFE00C5349D /* ChapterPlaybackSupported.swift */,
 			);
 			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3295AD481B54B92E00C5349D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3295AD311B5497B300C5349D /* AVFoundation.framework */,
+				3295AD321B5497B300C5349D /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +369,7 @@
 				3295AD301B54979800C5349D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
