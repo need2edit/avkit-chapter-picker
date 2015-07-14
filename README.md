@@ -1,4 +1,4 @@
-# Chapter Picker
+# Chapter Picker for iOS9
 An iOS9 Experiment with a chapter picker for any AVAsset.  Tapping a chapter seeks to the time of the resource.
 
 
