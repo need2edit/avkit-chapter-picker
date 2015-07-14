@@ -77,11 +77,11 @@
 			children = (
 				3295AD1F1B54979800C5349D /* AppDelegate.swift */,
 				3295AD231B54979800C5349D /* Main.storyboard */,
+				3295AD281B54979800C5349D /* LaunchScreen.storyboard */,
+				3295AD261B54979800C5349D /* Assets.xcassets */,
 				3295AD451B54ACD900C5349D /* Model */,
 				3295AD441B54ACCA00C5349D /* Chapters */,
 				3295AD411B54AAE800C5349D /* Utilities */,
-				3295AD261B54979800C5349D /* Assets.xcassets */,
-				3295AD281B54979800C5349D /* LaunchScreen.storyboard */,
 				3295AD2B1B54979800C5349D /* Info.plist */,
 			);
 			path = ChapterPicker;

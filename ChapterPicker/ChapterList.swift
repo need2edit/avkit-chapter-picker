@@ -26,7 +26,11 @@ class ChapterList: NSObject, SimpleDataSourceItem, ChapterSelectionItem {
     }
     
     func item(indexPath: NSIndexPath) -> T {
-        return items[indexPath.row]
+        return item(indexPath.row)
+    }
+    
+    func item(index: Int) -> T {
+        return items[index]
     }
     
     func add(chapter: Chapter) {
